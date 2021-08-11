@@ -1,0 +1,56 @@
+.Main-container {
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100vw;
+}
+.Homepage {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: 100%;
+  margin: auto;
+}
+h1 {
+  margin-top: 50px;
+}
+.Home-welcome {
+  margin-top: 10px;
+  flex: 30%;
+  background-color: teal;
+  color: aliceblue;
+}
+.Sign_Login {
+  flex: 70%;
+  padding: 100px 20px 0px 20px;
+}
+.logo-holder {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: aliceblue;
+  top: calc(30% - 50px);
+  left: calc((100% - 100px) / 2);
+}
+.logo {
+  width: inherit;
+  height: inherit;
+}
+
+@media screen and (max-width: 720px) {
+  .Homepage {
+    width: 100%;
+    height: 100%;
+  }
+
+  .logo-holder {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    top: calc(30% - 50px);
+    left: calc((100vw - 100px) / 2);
+  }
+} ;

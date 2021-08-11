@@ -1,0 +1,24 @@
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  text-align: left;
+}
+.input-holder {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+input,
+button {
+  margin-top: 5px;
+  border-radius: 0px;
+  height: 30px;
+  border: 2px solid teal;
+}
+button {
+  background-color: teal;
+  color: aliceblue;
+}
