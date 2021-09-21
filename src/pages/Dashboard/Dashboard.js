@@ -13,7 +13,6 @@ function Dashboard() {
                         <div><Button className="edit-profile">E</Button></div>
                         <div className="profile-name">
                             <h3>Allan Kioko</h3>
-                            
                         </div>
                     </div>
                     <div className="write"> 
