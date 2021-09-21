@@ -26,3 +26,8 @@ button {
   background-color: teal;
   color: aliceblue;
 }
+.error-holder {
+  color: red;
+  font-style: italic;
+  font-size: 15px;
+}

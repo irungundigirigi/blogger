@@ -1,0 +1,6 @@
+1.Contain user profile- name profile picture with an option to edit profile picture
+2. Write- form with text area and files field to upload article picture.
+2. Map all the articles belonging to the writer with the article thumbanail.-with the
+    number of likes and comments.with view option
+
+3. 
