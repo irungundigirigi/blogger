@@ -13,7 +13,7 @@
 }
 .profile-info {
   width: 30vw;
-  height: 40vh;
+  height: 50vh;
   background-color: white;
   border-radius: 10px;
   margin: 10px;
@@ -39,20 +39,7 @@
   margin: 10px;
   background-color: turquoise;
 }
-.profile {
-  display: flex;
-  height: 70%;
-  flex-direction: column;
-  align-content: center;
-  align-items: center;
-}
-.profile-holder {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  background-color: turquoise;
-  margin: auto;
-}
+
 .edit-profile {
   width: 30px;
   height: 30px;
